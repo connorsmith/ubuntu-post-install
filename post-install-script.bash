@@ -2,6 +2,7 @@
 
 # adds repos
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
+sudo add-apt-repository -y "deb http://dl.google.com/linux/chrome/deb/ stable main"
 
 # basic update
 sudo apt-get -y --force-yes update
@@ -9,7 +10,7 @@ sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y --force-yes install \
-	gitk vim sublime-text-installer
+	gitk vim sublime-text-installer google-chrome-stable
 
 # autoremove 
 sudo apt-get autoremove
