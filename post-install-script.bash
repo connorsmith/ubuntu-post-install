@@ -13,7 +13,7 @@ sudo apt-get -y --force-yes install \
 	gitk vim sublime-text-installer google-chrome-stable
 
 # autoremove 
-sudo apt-get autoremove
+sudo apt-get -y autoremove
 
 # folders
 rm -rf ~/Public
