@@ -5,7 +5,7 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # install apps
-sudo apt-get -y install gitk vim
+sudo apt-get -y --force-yes install gitk vim
 
 # autoremove 
 sudo apt-get autoremove
