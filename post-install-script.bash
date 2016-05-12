@@ -5,7 +5,7 @@ sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # install apps
-sudo apt-get -y install gitk 
+sudo apt-get -y install gitk vim
 
 # autoremove 
 sudo apt-get autoremove
@@ -19,6 +19,9 @@ rm -rf ~/Music
 rm ~/examples.desktop
 mkdir ~/Development
 mkdir ~/Figures
+
+# run additional configuration scripts
+bash ./git-settings.bash
 
 # prompt for a reboot
 echo ""
