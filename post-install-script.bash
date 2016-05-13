@@ -16,6 +16,10 @@ wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
 # todo: remove 32 chrome: http://www.omgubuntu.co.uk/2016/03/fix-failed-to-fetch-google-chrome-apt-error-ubuntu
 
+# todo: make the user name an argument so the script is general
+# add myself to dialout group
+sudo gpasswd --add connor dialout
+
 # basic update
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
