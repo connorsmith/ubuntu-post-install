@@ -5,6 +5,7 @@ echo "Configuring git settings."
 echo ""
 
 git config --global user.name "Connor Smith"
+git config --global user.email "con.smith13@gmail.com"
 git config --global push.default simple
 git config --global core.editor vim
 
