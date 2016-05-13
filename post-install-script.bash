@@ -50,7 +50,6 @@ bash ./gsettings.bash
 echo "export RR_LOCATION=tokyo" >> ~/.bashrc
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 echo "alias cm=catkin_make" >> ~/.bashrc
-source ~/.bashrc
 
 # prompt for a reboot
 echo ""
