@@ -26,13 +26,13 @@ sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y --force-yes install \
-	gitk vim sublime-text-installer google-chrome-stable vlc \
-	screen terminator ssh cmake-curses-gui \
-	python-pip doxygen python-wstool python-catkin-pkg python-pkg-resources \
-	indicator-multiload  indicator-sensors \
-	python-rosinstall gcc-arm-none-eabi openocd\
-	ros-indigo-gazebo5-ros-pkgs \
-	ros-indigo-desktop
+    gitk vim sublime-text-installer google-chrome-stable vlc \
+    screen terminator ssh cmake-curses-gui \
+    python-pip doxygen python-wstool python-catkin-pkg python-pkg-resources \
+    indicator-multiload  indicator-sensors \
+    python-rosinstall gcc-arm-none-eabi openocd\
+    ros-indigo-gazebo5-ros-pkgs \
+    ros-indigo-desktop
 
 sudo pip install jinja2
 
