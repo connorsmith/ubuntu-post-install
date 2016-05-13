@@ -27,7 +27,7 @@ sudo pip install jinja2
 
 # more ROS
 sudo rosdep init
-sudo rosdep update
+rosdep update
 
 # autoremove 
 sudo apt-get -y autoremove
