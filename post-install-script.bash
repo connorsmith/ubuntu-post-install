@@ -12,14 +12,19 @@ sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net --recv-key 0xB01FA
 sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-latest.list' 
 wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
+sudo add-apt-repository -y ppa:alexmurray/indicator-sensors
+
+# todo: remove 32 chrome: http://www.omgubuntu.co.uk/2016/03/fix-failed-to-fetch-google-chrome-apt-error-ubuntu
+
 # basic update
 sudo apt-get -y --force-yes update
 sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y --force-yes install \
-	gitk vim sublime-text-installer google-chrome-stable \
+	gitk vim sublime-text-installer google-chrome-stable vlc \
 	screen terminator ssh python-pip doxygen python-wstool \
+	indicator-multiload  indicator-sensors\
 	ros-indigo-desktop python-rosinstall\
 	ros-indigo-gazebo5-ros-pkgs
 
