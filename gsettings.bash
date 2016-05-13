@@ -7,3 +7,4 @@ gsettings set org.gnome.settings-daemon.plugins.power lid-close-battery-action '
 gsettings set de.mh21.indicator.multiload.general width '500'
 gsettings set de.mh21.indicator.multiload.general speed '100'
 gsettings set com.canonical.indicator.datetime show-date true
+gsettings set org.compiz.core:/org/compiz/profiles/unity/plugins/core/ vsize 2
