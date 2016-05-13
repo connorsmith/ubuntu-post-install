@@ -44,8 +44,9 @@ rm -rf ~/Templates
 rm -rf ~/Videos
 rm -rf ~/Music
 rm ~/examples.desktop
-mkdir ~/Development
-mkdir ~/Figures
+mkdir -p ~/development/workspace/repositories
+mkdir -p ~/development/workspace/catkin_ws/src
+mkdir ~/Images
 
 # run additional configuration scripts
 bash ./git-settings.bash
