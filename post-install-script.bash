@@ -54,6 +54,10 @@ mkdir -p ~/development/workspace/repositories
 mkdir -p ~/development/workspace/catkin_ws/src
 mkdir ~/Images
 
+# sublime configuration file
+rm ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+mv ./Preferences.sublime-settings ~/.config/sublime-text-3/Packages/User/Preferences.sublime-settings
+
 # run additional configuration scripts
 bash ./git-settings.bash
 bash ./gsettings.bash
