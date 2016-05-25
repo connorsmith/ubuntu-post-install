@@ -8,6 +8,7 @@ git config --global user.name "Connor Smith"
 git config --global user.email "con.smith13@gmail.com"
 git config --global push.default simple
 git config --global core.editor vim
+git config --global diff.tool meld
 
 git config --global alias.co checkout
 git config --global alias.br branch

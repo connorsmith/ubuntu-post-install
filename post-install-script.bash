@@ -26,7 +26,7 @@ sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y --force-yes install \
-    gitk vim sublime-text-installer google-chrome-stable vlc \
+    gitk vim sublime-text-installer google-chrome-stable vlc meld \
     screen terminator ssh cmake-curses-gui \
     python-pip doxygen python-wstool python-catkin-pkg python-pkg-resources \
     indicator-multiload  indicator-sensors \
