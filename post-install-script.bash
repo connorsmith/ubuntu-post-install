@@ -11,7 +11,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net --recv-key 0xB01FA116
 
 # gazebo
-sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-latest.list' 
+sudo sh -c 'echo "deb http://packages.osrfoundation.org/gazebo/ubuntu `lsb_release -cs` main" > /etc/apt/sources.list.d/gazebo-latest.list'
 wget http://packages.osrfoundation.org/gazebo.key -O - | sudo apt-key add -
 
 # todo: remove 32 chrome: http://www.omgubuntu.co.uk/2016/03/fix-failed-to-fetch-google-chrome-apt-error-ubuntu
@@ -26,7 +26,7 @@ sudo apt-get -y --force-yes upgrade
 
 # install apps
 sudo apt-get -y --force-yes install \
-    gitk vim sublime-text-installer google-chrome-stable vlc meld \
+    gitk vim sublime-text-installer google-chrome-stable vlc meld rsync \
     screen terminator ssh cmake-curses-gui \
     python-pip doxygen python-wstool python-catkin-pkg python-pkg-resources \
     indicator-multiload  indicator-sensors \
@@ -40,7 +40,7 @@ sudo pip install jinja2
 sudo rosdep init
 rosdep update
 
-# autoremove 
+# autoremove
 sudo apt-get -y autoremove
 
 # folders
@@ -52,6 +52,7 @@ rm -rf ~/Music
 rm ~/examples.desktop
 mkdir -p ~/development/workspace/repositories
 mkdir -p ~/development/workspace/catkin_ws/src
+mkdir -p ~/development/firmware
 mkdir ~/Images
 
 # sublime configuration file
