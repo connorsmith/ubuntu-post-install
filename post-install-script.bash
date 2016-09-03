@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# initial update
+sudo apt-get -y --force-yes update
+sudo apt-get -y --force-yes upgrade
+
+# required for add-apt-repository on Ubuntu 14.04
+sudo apt-get -y --force-yes install software-properties-common
+
 # adds repos
 sudo add-apt-repository -y ppa:webupd8team/sublime-text-3
 sudo add-apt-repository -y "deb http://dl.google.com/linux/chrome/deb/ stable main"
