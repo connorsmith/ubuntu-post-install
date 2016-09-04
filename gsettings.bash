@@ -1,3 +1,5 @@
+#!/bin/bash
+
 gsettings set com.canonical.indicator.power show-percentage true
 gsettings set com.canonical.Unity.Launcher favorites "['application://google-chrome.desktop', 'application://sublime-text.desktop', 'application://terminator.desktop', 'unity://running-apps', 'unity://expo-icon', 'unity://devices']"
 gsettings set org.gnome.settings-daemon.plugins.power critical-battery-action 'shutdown'
