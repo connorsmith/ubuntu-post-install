@@ -1,0 +1,15 @@
+source /opt/ros/indigo/setup.bash
+
+alias p2=python
+alias p3=python3
+
+alias l=ll
+
+alias this='catkin build --this'
+
+alias pow='roscd; source setup.bash; cd -; echo "Grabbed the latest setup.bash."'
+alias work='roscd; cd ./../../repositories'
+alias gimme='wstool up -j 100'
+alias gitk='gitk -a'
+
+alias begone='rm -v'
